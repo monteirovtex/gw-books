@@ -1,0 +1,32 @@
+{
+  "store.custom#contato": {
+    "path": "/contato"
+  },
+  "store.custom#about": {
+    "path": "/sobre"
+  },
+  "store.custom#portfolio": {
+    "path": "/portfolio"
+  },
+  "store.custom#galeria": {
+    "path": "/galeria"
+  },
+  "store.custom#iamlight": {
+    "path": "/portfolio/i-am-light"
+  },
+  "store.custom#iamonline": {
+    "path": "/portfolio/i-am-on-line"
+  },
+  "store.custom#sansTache": {
+    "path": "/portfolio/sans-tache"
+  },
+  "store.custom#naive": {
+    "path": "/portfolio/naive"
+  },
+  "store.custom#sexualColors": {
+    "path": "/portfolio/sexual-colors"
+  },
+  "store.custom#antesnus": {
+    "path": "/portfolio/antesnuadoquesua"
+  }
+}

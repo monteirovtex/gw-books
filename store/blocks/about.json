@@ -1,0 +1,56 @@
+{
+  "store.custom#about": {
+    "blocks": [
+      "flex-layout.row#about"
+    ]
+  },
+
+  "flex-layout.row#about": {
+    "children": [
+      "flex-layout.col#about"
+    ]
+  },
+  "flex-layout.col#about": {
+    "children": [
+      "rich-text#wickboldName",
+      "image#gabrielPhotoDesktop",
+      "image#gabrielPhotoMobile",
+      "rich-text#aboutLocation",
+      "rich-text#gabrielDescription"
+    ]
+  },
+  "image#gabrielPhotoDesktop": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "gabrielPhotoDesktop",
+      "maxWidth": "1140px",
+      "maxHeight": "464px"
+    }
+  },
+  "image#gabrielPhotoMobile": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "gabrielPhotoMobile",
+      "maxWidth": "1140px",
+      "maxHeight": "238px"
+    }
+  },
+  "rich-text#aboutLocation": {
+    "props": {
+      "text": "São Paulo, Brasil",
+      "blockClass": "aboutLocation"
+    }
+  },  
+  "rich-text#gabrielDescription": {
+    "props": {
+      "text": "description",
+      "blockClass": "gabrielDescription"
+    }
+  },
+  "rich-text#wickboldName": {
+    "props": {
+      "text": "Sobre Gabriel Wickbold",
+      "blockClass": "aboutGabriel"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+
+
+
+@media screen and (max-width: 40rem) {
+    .drawer::-webkit-scrollbar { 
+        display: none; 
+    }
+
+    .drawer {
+        overflow: scroll;
+    }
+
+    .drawer div[class="flex flex-grow-1"] {
+        flex-flow: column nowrap;
+    }
+
+}

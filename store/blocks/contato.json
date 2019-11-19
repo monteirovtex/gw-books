@@ -1,0 +1,86 @@
+{
+  "store.custom#contato": {
+    "blocks": [
+      "flex-layout.row#contactPage"
+    ]
+  },
+
+  "flex-layout.row#contactPage": {
+    "children": [
+      "flex-layout.col#contactPage"    
+    ]
+  },
+
+  "flex-layout.col#contactPage": {
+    "children": [
+      "rich-text#contactPageTitle",
+      "rich-text#contactPageSubtitle",
+      "image#galeryDesktop",
+      "image#galeryMobile",
+      "rich-text#contactPageContactTitle",
+      "rich-text#contactPageEmail",
+      "rich-text#contactPagePhone",
+      "rich-text#contactPageGaleryTitle",
+      "rich-text#contactPageGaleryAddress"
+    ]
+  },
+
+  "image#galeryDesktop" : {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "galeryContactDesktop",
+      "maxWidth": "1140px",
+      "maxHeight": "240px"
+    }
+  },
+  "image#galeryMobile" : {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "galeryContactMobile",
+      "maxWidth": "1140px",
+      "maxHeight": "240px"
+    }
+  },
+  "rich-text#contactPageTitle": {
+    "props": {
+      "text": "Contato",
+      "blockClass": "contactTitle"
+    }
+  },
+  "rich-text#contactPageSubtitle": {
+    "props": {
+      "text": "Entre em contato com a equipe de Gabriel Wickbold",
+      "blockClass": "contactSubtitle"
+    }
+  },
+  "rich-text#contactPageContactTitle": {
+    "props": {
+      "text": "E-mail e telefone",
+      "blockClass": "contactsTitle"
+    }
+  },
+  "rich-text#contactPageEmail": {
+    "props": {
+      "text": "[studio@gabrielwickbold.com.br](mailto:studio@gabrielwickbold.com.br)",
+      "blockClass": "contactEmail"
+    }
+  },
+  "rich-text#contactPagePhone": {
+    "props": {
+      "text": "[+55 11 3051.4919](callto:1130514919)",
+      "blockClass": "contactPhone"
+    }
+  },
+  "rich-text#contactPageGaleryTitle": {
+    "props": {
+      "text": "Visite nossa galeria",
+      "blockClass": "contactPageGaleryTitle"
+    }
+  },
+  "rich-text#contactPageGaleryAddress": {
+    "props": {
+      "text": "R. Lourenço de Almeida, 167 - Vila Nova Conceição, São Paulo - SP, 01428-010",
+      "blockClass": "GaleryAddress"
+    }
+  }
+}

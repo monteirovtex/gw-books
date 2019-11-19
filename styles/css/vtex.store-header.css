@@ -1,0 +1,32 @@
+.headerRow--main-menu > div[class*="bg-base"] {
+    background-color: #000;
+    position: relative;
+    z-index: 7;
+}
+
+.headerRowContainer {
+    height: 72px;
+}
+
+.headerRow--main-header {
+    box-shadow: none!important;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.headerRowBackground--main-header section[class*="-container"] {
+    max-width: 1392px!important;
+    padding: 0px 16px;
+}
+
+@media screen and (max-width: 57rem) {
+    
+.headerRow--main-search-mobile {
+    border-bottom: 1px solid #d8d8d8;
+    box-shadow: none;
+}
+
+.headerRowContainer {
+    height: 60px;
+}
+
+}

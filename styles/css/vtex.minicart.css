@@ -1,0 +1,18 @@
+.container [class*="gray"] {
+    color: #000;
+}
+
+.box span[class*="sellingPrice"] {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.badge {
+    background-color: #000!important;
+    background: #000!important;
+}
+
+.contentFooter button {
+    background-color: #000!important;
+    background: #000!important;
+}

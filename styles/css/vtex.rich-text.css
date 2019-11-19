@@ -1,0 +1,356 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container > div {
+    width: 100%;
+    text-align: center;
+}
+
+.container--portfolioTitle [class*="paragraph"]{
+    font-family: Helvetica;
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;    
+}
+
+.container--gabrielDescription {
+    max-width: 840px;
+}
+
+.container--gabrielDescription [class*="paragraph"]{
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0;
+}
+
+.container--gabrielButton .link {
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 40px auto 0px;
+    width: 180px;
+    display: block;
+    height: 48px;
+    border: 1px solid #000;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    transition: all .3s ease;
+}
+
+.container--gabrielButton .link:hover {
+    background: #000;
+    color: #fff;
+}
+
+.container--gabrielName [class*="paragraph"]{
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.container--gabrielLocation [class*="paragraph"]{
+    font-family: Helvetica;
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #666666;
+}
+
+.container--portfolioSubtitle [class*="paragraph"]{
+    font-family: Helvetica;
+    font-size: 16px;
+    margin-top: 4px;
+    line-height: 18px;
+    text-align: center;
+    color: #666666;
+}
+
+.container--artistName [class*="paragraph"]{
+    margin-top: 1rem;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container--shelfTitle [class*="paragraph"] {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.container--menuCustomLink,
+.container--menuCustomLink div,
+.container--menuCustomLink .paragraph,
+.container--menuCustomLink .paragraph a {
+    height: 100%;
+}
+
+.container--menuCustomLink .paragraph{
+    margin: 0;
+}
+
+.container--menuCustomLink .link{
+    color: black;
+    display: block;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 1rem;
+    line-height: 42px;
+    padding-bottom: 0.9rem;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease;
+}
+
+.container--menuCustomLink:first-of-type .link {
+    padding-left: 0px;
+    margin-left: 40px;
+}
+
+.container--menuCustomLink .link:hover{
+    border-bottom: 2px solid #000;
+}
+
+.container--shelfSubtitle [class*="paragraph"] {
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #666666;
+}
+
+.container--contactTitle .paragraph {
+    font-family: Helvetica;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.container--contactSubtitle .paragraph {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.container--contactsTitle .paragraph {
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+.container--contactEmail .paragraph,
+.container--contactPhone .paragraph {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #999999;
+    margin: 0;
+}
+.container--contactEmail .link:hover
+.container--contactPhone .link:hover {
+    text-decoration: underline;
+}
+
+.container--contactPageGaleryTitle .paragraph {
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.container--GaleryAddress .paragraph {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.container--gabrielName{
+    font-family: Helvetica;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+}
+.container--gabrielDescription .paragraph {
+    font-family: Helvetica;
+    text-align: left;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.container--aboutGabriel .paragraph {
+    font-family: Helvetica;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+    margin: 50px auto;
+}
+
+.container--aboutLocation .paragraph {
+    font-family: Helvetica;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.container--itemName .paragraph{
+    font-family: Helvetica;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.container--itemDescriptionDesktop {
+    display: block;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 58px;
+}
+
+.container--itemDescriptionMobile {
+    display: none;
+    font-family: Helvetica;
+    background: #000;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 57rem) {
+
+    .container--menuCustomLink,
+    .container--menuCustomLink div,
+    .container--menuCustomLink .paragraph,
+    .container--menuCustomLink .paragraph a {
+        height: initial;
+    }
+
+    .container--gabrielButton .link {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .container--menuCustomLink {
+        margin: 0px 30px;
+    }
+
+    .container--itemName .paragraph{
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .container--menuCustomLink .paragraph {
+        text-align: left;
+    }
+
+    .container--menuCustomLink .paragraph .link {
+        margin-left: 0;
+        line-height: 40px;
+        padding: 0;
+    }
+
+    .container--itemDescriptionDesktop {
+        display: none;
+    }
+    
+    .container--itemDescriptionMobile {
+        display: block;
+    }
+
+    .container--itemDescriptionMobile .paragraph {
+        text-align: center;
+        padding: 44px 20px;
+    }
+
+    .container--menuCustomLink .paragraph .link:hover {
+        border: none;
+    }
+
+    .container--gabrielDescription .paragraph,
+    .container--aboutLocation .paragraph {
+        text-align: center;
+    }
+    
+
+    .container--aboutGabriel .paragraph {
+        max-width: 220px;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .container--menuCustomLink:first-of-type {
+        border-top: 1px solid #c4c4c4;
+        padding-top: 30px;
+    }
+
+    .container--GaleryAddress .paragraph {
+        margin-bottom: 60px;
+    }
+
+    .container--contactPageGaleryTitle .paragraph {
+        margin-top: 60px;
+    }
+}

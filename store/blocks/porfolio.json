@@ -1,0 +1,15 @@
+{
+  "store.custom#portfolio": {
+    "blocks": [
+      "flex-layout.row#Wrapper"
+    ]
+  },
+  "flex-layout.row#Wrapper": {
+    "children": [
+      "flex-layout.row#portfolioArea"
+    ],
+    "props": {
+      "blockClass": "portfolioWrapper"
+    }
+  }
+}

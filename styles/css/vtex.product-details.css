@@ -1,0 +1,122 @@
+.informationsContainer > div[class*="justify-between"] {
+    display: block;
+}
+
+.informationsContainer div[class*="specificationsTableContainer"] {
+    padding: 0;
+}
+
+.container article div[class="flex flex-wrap"] {
+    flex-direction: row-reverse;
+}
+
+.container article div[class="flex flex-wrap"] div[class="w-60-l w-100"]{
+    width: 50%!important;
+}
+
+.detailsContainer {
+    padding-left: 0;
+    margin-right: auto;
+    padding-right: 48px;
+    padding-top: 30px;
+}
+
+.detailsContainer .priceContainer + div[class*="pv2"] button div{
+    font-size: 0px;
+}
+
+.detailsContainer .priceContainer + div[class*="pv2"] button div::after,
+.detailsContainer .priceContainer + div[class*="pv2"] button span[class*="o-0"]::after {
+    content: "Comprar";
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.detailsContainer .priceContainer + div[class*="pv2"] button svg {
+    fill: #fff!important;
+    color: #fff!important;
+}
+
+.detailsContainer .priceContainer + div[class*="pv2"] button {
+    background: #000;
+    border: none;
+    height: 70px;
+    border-radius: 4px;
+    font-family: Helvetica;
+    font-weight: bold;
+    width: 310px;
+    outline: none;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.priceContainer div{
+    text-align: left;
+}
+
+.priceContainer + div[class="mv2 mt5 dn db-l"] {
+    display: none;
+}
+
+.informationsContainer div[class*="mv4"] {
+    display: none;
+}
+
+.priceContainer+div > button {
+    background: #47BE4C;
+    border-color: #47BE4C;
+    padding: 16px 0;
+}
+
+.fixedButton button {
+    background: #47BE4C;
+    border-color: #47BE4C;
+}
+
+@media screen and (max-width: 57rem) {
+    .container article div[class="flex flex-wrap"] div[class="w-60-l w-100"]{
+        width: 100%!important;
+    }   
+
+    .fixedButton button{
+        background: #000;
+        border: none;
+        height: 50px;
+        border-radius: 4px;
+        font-family: Helvetica;
+        font-weight: bold;
+        outline: none;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .fixedButton button div {
+        display: none;
+    }
+
+    .fixedButton button::after {
+        content: "Comprar";
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .detailsContainer {
+        padding-right: 0;
+    }
+}

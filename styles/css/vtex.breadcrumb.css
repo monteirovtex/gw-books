@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.link:first-child svg {
+  display: none;
+}
+
+.link:first-child::before {
+  content: 'Home';
+}
+
+.link {
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.term {
+  display: none;
+}
+
+.arrow:nth-last-of-type(2){
+  display: none;
+}

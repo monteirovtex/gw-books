@@ -1,0 +1,93 @@
+.flexRow--mini-banners > section > div > div[class*="w-100"] {
+    margin: 40px 20px ;
+}
+
+.flexRow--tarja-banners > section{
+    padding: 0;
+    margin: 20px auto 0;
+}
+
+.stretchChildrenWidth {
+    padding: 20px 0px;
+}
+
+.flexRow--portfolioRow > div[class*="mt0 mb0 pt0 pb0"] {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+}
+
+.flexRow--portfolioRow .stretchChildrenWidth,
+.flexRow--deepGallery .stretchChildrenWidth {
+    width: 100%!important;
+}
+
+.flexRow--deepGallery .stretchChildrenWidth {
+    padding: 0;
+}
+
+.flexRow--portfolioWrapper .flexRow--portfolioArea {
+    margin-top: 0;
+}
+
+.flexRow--portfolioArea {
+    margin-top: 160px;
+    margin-bottom: 140px;
+}
+
+.flexRow--deepGallery > div[class*="mt0 mb0 pt0 pb0"] {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.flexRow--portfolioWrapper div[class*="container--portfolioTitle"] p[class*="paragraph"],
+.flexRow--galleryWrapper div[class*="container--portfolioTitle"] p[class*="paragraph"] {
+    font-size: 50px;
+    font-weight: 400!important;
+    line-height: 57px;
+}
+
+/* Columns */
+
+.flexCol--whoami .flexColChild--whoami:nth-child(3){
+    text-align: center;
+    margin: 20px 0px 30px;
+}
+
+@media screen and (max-width: 57rem) {
+    .flexRow--mini-banners, .flexRow--tarja-banners {
+        display: none;
+    }
+
+    .flexRow--portfolioWrapper div[class*="container--portfolioTitle"] p[class*="paragraph"],
+    .flexRow--galleryWrapper div[class*="container--portfolioTitle"] p[class*="paragraph"] {
+        font-size: 32px;
+        line-height: 37px;
+        font-weight: 400;
+    }
+
+    .flexRow--portfolioArea {
+        margin-top: 20px!important;
+        margin-bottom: 30px!important;
+    }
+
+
+    .flexRow--shelfImageArea .stretchChildrenWidth:first-child{
+        display: none;
+    }
+
+    .flexRow--portfolioRow > div[class*="mt0 mb0 pt0 pb0"] {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 15px;
+    }
+
+    .flexRow--deepGallery > div[class*="mt0 mb0 pt0 pb0"] {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+}

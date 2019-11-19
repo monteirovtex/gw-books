@@ -1,0 +1,18 @@
+.dot {
+  border: 1px solid #fff;
+  width: 12px;
+  height: 12px;
+}
+
+.notActiveDot {
+  background: transparent;
+}
+
+.activeDot {
+  background: #fff;
+}
+
+.arrowLeft,
+.arrowRight {
+  display: none;
+}

@@ -1,0 +1,244 @@
+.infoCardContainer {
+    max-width: 1140px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #f1f1f1;
+}
+
+.shareSocialIcon circle {
+    fill: #444;
+}
+
+.searchBarContainer {
+    max-width: 220px;
+}
+
+.imageElement--portfolioImage,
+.imageElement--itemImage {
+    width: 100%;
+    max-height: 374px!important;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.imageElement--portfolioImage:hover {
+    cursor: pointer;
+}
+
+.imageElement--bannerDisclaimer {
+    max-width: initial!important;
+    max-height: initial!important;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.searchBarContainer input {
+    border: 0;
+    border-radius: 0;
+    color: #000;
+}
+
+.searchBarIcon svg{
+    color: #000;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    height: 48px;
+    border: none;
+    border-radius: 0;
+}
+
+.sellingPriceValue {
+    padding-left: 0;
+}
+
+.shareContainer {
+    display: none;
+}
+
+.shippingContainer {
+    max-width: 310px;
+}
+
+.shippingContainer button {
+    background: #666666;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.shippingContainer form label span {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    color: #999999;
+}
+
+.shippingContainer form a {
+    font-family: Helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.shippingContainer form a:hover {
+    color: #999999;
+}
+
+.shippingContainer form a span{
+    display: none!important;
+}
+
+.subscriberContainer :global(.vtex-store-components-3-x-input), .subscriberContainer :global(.vtex-store-components-3-x-submit) {
+    display: none;
+}
+
+.sellingPriceValue {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1172px;
+    padding: 0px 10px;
+}
+
+.newsletter {
+    background-color: #f1f1f1;
+}
+
+.newsletter input {
+    background: none;
+    border: 0; 
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.imageElement--galeryContactDesktop {
+    display: block;
+}
+
+.imageElement--galeryContactMobile {
+    display: none;
+}
+
+.imageElement--gabrielPhotoDesktop {
+    display: block;
+}
+
+.imageElement--gabrielPhotoMobile {
+    display: none;
+}
+
+.productBrand {
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.newsletter :global(.vtex-input-prefix__group) {
+    border: 0;
+}
+
+.logoContainer {
+    height: 70px;
+    max-height: 100px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    padding: 0px!important;
+}
+
+.logoContainer img {
+    height: auto!important;
+    position: absolute;
+    width: auto;
+    max-width: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    max-height: 80%;
+}
+
+.gabrielPhotoDesktop {
+    display: block;
+}
+
+.gabrielPhotoMobile {
+    display: none;
+}
+
+.listPriceValue {
+    font-family: Helvetica;
+    font-size: 24px;
+    padding-left: 0;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #999999;       
+}
+
+@media screen and (max-width: 57rem) {
+    .logoContainer img {
+        max-width: 100%;
+    }
+
+    .gabrielPhotoDesktop {
+        display: none;
+    }
+    
+    .gabrielPhotoMobile {
+        display: block;
+    }
+
+    .searchBarContainer {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .shippingContainer {
+        max-width: initial;
+        width: 100%;
+    }
+
+    .imageElement--galeryContactDesktop {
+        display: none;
+    }
+    
+    .imageElement--galeryContactMobile {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-width: initial;
+        max-height: initial;
+    }
+
+    .imageElement--gabrielPhotoDesktop {
+        display: none;
+    }
+    
+    .imageElement--gabrielPhotoMobile {
+        display: block;
+        margin: 0px auto;
+        max-height: initial!important;
+        width: 100%!important;
+        object-fit: cover;
+    }
+    
+
+}
+
+@media screen and (max-width: 40rem){
+    .imageElement--portfolioImage {
+        height: 235px;
+    }   
+}

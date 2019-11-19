@@ -1,0 +1,35 @@
+.container {
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.buyButton {
+    display: none!important;
+}
+
+.nameContainer,
+.priceContainer {
+    padding: 0;
+}
+
+.priceContainer span{
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #777777;
+}
+
+.imageNormal {
+    height: 250px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 40rem) {
+
+
+    .nameContainer {
+        min-height: 60px;
+    }
+}

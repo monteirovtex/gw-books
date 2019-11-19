@@ -1,0 +1,187 @@
+{
+  "store.custom#iamlight": {
+    "blocks": [
+      "flex-layout.row#obra"
+    ]
+  },
+  "store.custom#iamonline": {
+    "blocks": [
+      "flex-layout.row#obra"
+    ]
+  },
+  "store.custom#sansTache": {
+    "blocks": [
+      "flex-layout.row#obra"
+    ]
+  },
+  "store.custom#naive": {
+    "blocks": [
+      "flex-layout.row#obra"
+    ]
+  },
+  "store.custom#sexualColors": {
+    "blocks": [
+      "flex-layout.row#obra"
+    ]
+  },
+  "store.custom#antesnus": {
+    "blocks": [
+      "flex-layout.row#obra"
+    ]
+  },
+  "flex-layout.row#obra": {
+    "children": [
+      "flex-layout.col#obra"
+    ]
+  },
+
+  "flex-layout.col#obra": {
+    "children": [
+      "rich-text#itemName",
+      "rich-text#itemDescriptionDesktop",
+      "sandbox#video",
+      "rich-text#itemDescriptionMobile",
+      "flex-layout.row#itemPhotos"
+    ]
+  },
+  "flex-layout.row#itemPhotos": {
+    "children": [
+      "image#itemImage1",
+      "image#itemImage2",
+      "image#itemImage3",
+      "image#itemImage4",
+      "image#itemImage5",
+      "image#itemImage6",
+      "image#itemImage7",
+      "image#itemImage8",
+      "image#itemImage9",
+      "image#itemImage10",
+      "image#itemImage11",
+      "image#itemImage12"
+    ],
+    "props": {
+      "blockClass": "deepGallery"
+    }
+  },
+  "rich-text#itemName": {
+    "props": {
+      "text": "Nome da Obra",
+      "blockClass": "itemName"
+    }
+  },
+  "sandbox#video": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "initialContent": "Component sandbox para inserção do vídeio via Editor de Layout"
+    }
+  },
+  "rich-text#itemDescriptionDesktop": {
+    "props": {
+      "text": "Descrição da Obra",
+      "blockClass": "itemDescriptionDesktop"
+    }
+  },
+  "rich-text#itemDescriptionMobile": {
+    "props": {
+      "text": "Descrição da Obra",
+      "blockClass": "itemDescriptionMobile"
+    }
+  },
+  "image#itemImage1": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage2": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage3": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage4": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage5": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage6": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage7": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage8": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage9": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage10": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage11": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  },
+  "image#itemImage12": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "blockClass": "itemImage",
+      "maxWidth": "320px",
+      "maxHeight": "320px"
+    }
+  }
+}
